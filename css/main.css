@@ -1,0 +1,492 @@
+nav .row {
+                    align-items: center;
+                }
+
+                #navbar-right, #navbar-right .socials {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .profile {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .profile .img, .profile img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                @media only screen and (min-width: 992px) {
+                    .profile {
+                        align-items: flex-end;
+                    }
+                }
+
+                .socials {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .socials a {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 100px;
+                    margin-left: 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .socials a:first-of-type {
+                    margin-left: 0px;
+                }
+
+                .socials a img {
+                    width: 16px;
+                    height: 16px;
+                }
+
+                body, html {
+                    overflow-x: hidden !important;
+                }
+
+                .hero h1, .hero h4 {
+                    margin-bottom: 8px;
+                }
+
+                .hero .row div:first-of-type {
+                    margin-bottom: 40px;
+                }
+
+                .worked-with .row:first-of-type {
+                    text-align: center;
+                }
+
+                .worked-with .row {
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+
+                .worked-with .row img {
+                    margin: 4px 0px;
+                    height: 60px;
+                }
+
+                .hero .row div.links a {
+                    display: block;
+                    width: fit-content;
+                }
+
+                .hero .row div.links a:last-of-type .button {
+                    margin-top: 8px;
+                }
+
+                @media only screen and (min-width: 524px) {
+                    .worked-with .row {
+                        justify-content: space-evenly;
+                        align-items: center;
+                    }
+                    
+                    .worked-with .row img {
+                        margin: 4px;
+                        height: 80px;
+                    }
+                }
+
+                @media only screen and (min-width: 767px) {
+                    .hero .row {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .hero .row div:first-of-type {
+                        margin-bottom: 0px;
+                    }
+
+                    .worked-with .row {
+                        justify-content: space-between;
+                    }
+                }
+
+                @media only screen and (min-width: 992px) {  
+                    body {
+                        background-image: url(/img/yasmina.png);
+                        background-position: center top;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        z-index: 999;
+                    }
+                    
+                    .worked-with .row img {
+                        margin: 0px;
+                        height: 73px;
+                    }
+                }
+
+                @media only screen and (min-width: 1280px) {
+                    .hero .row {
+                        align-items: flex-start;
+                    }
+
+                    .hero .row div:first-of-type {
+                        margin-top: 180px;
+                    }
+
+                    .hero .row div.links {
+                        margin-top: 0px;
+                        /* display: inline-block; */
+                    }
+                    
+                    .worked-with .row img {
+                        height: 80px;
+                    }
+                }
+
+
+                /* ============
+
+                CASE CARDS
+
+                ============ */
+                .work .margin-bottom-64:last-of-type {
+                    margin-bottom: 0;
+                }
+
+                .case-card-large-wrapper {
+                    margin-top: -48px;
+                }
+
+                .case-card-large-outer {
+                    width: 93%;
+                    max-width: 1450px;
+                    margin: 0px auto 64px auto;
+                    overflow: hidden;
+                    padding: 32px 17px 32px 17px;
+                }
+
+                .case-card-large-outer .row {
+                    align-items: center;
+                }
+
+                .case-card-large-icon {
+                    height: 64px;
+                }
+
+                .case-tag {
+                    width: fit-content;
+                    border-radius: 80px;
+                    background: linear-gradient(to right, #8335F6, #F36464);
+                    padding: 1.5px;
+                    margin-bottom: 16px;
+                }
+
+                .paste-by-wetransfer .case-tag-inner {
+                    border-radius: 80px;
+                    padding: 2px 8px 4px 8px;
+                    background-color: #1E1C27;
+                }
+
+                .case-tag-inner span {
+                    background: linear-gradient(to right, #8335F6, #F36464);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    -moz-background-clip: text;
+                    -moz-text-fill-color: transparent;
+                    -o-background-clip: text;
+                    -o-text-fill-color: transparent;
+                }
+
+                .follow-the-beat {
+                    background-color: #070425;
+                    background-image: url("/assets/img/case-card-large-background-follow-the-beat.png");
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+
+                .echtfit {
+                    background-color: #010102;
+                    background-image: url("/assets/img/case-card-large-background-echtfit.png");
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+
+                .government-accessibility {
+                    background-image: url("/assets/img/case-card-large-background-government-accessibility.jpg");
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .daikin {
+                    background-image: url("/assets/img/case-card-large-background-daikin.jpg");
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .art-scanner {
+                    background-image: url("/assets/img/case-card-large-background-art-scanner.jpg");
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .paste-by-wetransfer {
+                    background-image: url("/assets/img/case-card-large-background-paste-by-wetransfer.jpg");
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .case-card-large-outer.daikin {
+                    padding-bottom: 0px;
+                }
+
+                .case-card-large-image {
+                    margin-top: 24px;
+                }
+
+                .echtfit .case-card-large-image, .daikin .case-card-large-image {
+                    max-width: 122%;
+                    margin-bottom: -10px;
+                }
+
+                .daikin .case-card-large-image {
+                    margin-left: -12px;
+                }
+
+                .case-child-row {
+                    margin-top: 40px;
+                }
+
+                .case-child-row.row {
+                    align-items: flex-start;
+                }
+
+                .case-card-child {
+                    margin-bottom: 64px;
+                }
+
+                .case-card-small p {
+                    margin-bottom: 0;
+                }
+
+                .case-card-sponsors {
+                    width: 100%;
+                }
+
+                .case-card-sponsors a {
+                    height: 0px;
+                }
+
+                .case-card-sponsors img {
+                    width: 24%;
+                }
+
+                @media only screen and (min-width: 667px) {
+                    .case-card-large-image {
+                        max-width: 122%;
+                        margin-bottom: -10px;
+                    }
+
+                    .daikin .case-card-large-image {
+                        margin-left: 4px;
+                    }
+                }
+
+                @media only screen and (min-width: 769px) {
+                    .case-card-large-image {
+                        margin-top: 0px;
+                    }
+
+                    .case-child-row {
+                        margin-bottom: 64px;
+                    }
+                }
+
+                @media only screen and (min-width: 925px) {
+                    .echtfit .case-card-large-image, .daikin .case-card-large-image {
+                        max-width: 130%;
+                    }
+                }
+
+                @media only screen and (min-width: 992px) {
+                    .case-card-large-outer {
+                        padding: 0px 32px;
+                    }
+                    
+                    .echtfit .case-card-large-image, .daikin .case-card-large-image {
+                        max-width: 122%;
+                    }
+                }
+
+                @media only screen and (min-width: 1280px) {
+                    .case-card-large-outer {
+                        padding: 0px 48px;
+                    }
+
+                    .case-child-row {
+                        margin-top: 0px;
+                    }
+                }
+
+                /* ============
+
+                CASE TEMPLATE
+
+                ============ */
+                .case-header {
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+                    padding-bottom: calc(((min(94%,1450px) * (800/1340)) / 2) + 48px);
+                }
+
+                .case-header-follow-the-beat {
+                    background-image: url("/assets/img/case-follow-the-beat-background.jpg");
+                }
+
+                .case-header-follow-the-beat .case-header-info-meta h6:first-of-type {
+                    color: #A69FE4;
+                }
+
+                .case-header-accessibility {
+                    background-image: url("/assets/img/case-government-accessibility-background.jpg");
+                }
+
+                .case-header-accessibility .case-header-info-meta h6:first-of-type {
+                    color: #02811F;
+                }
+
+                .case-header-wetransfer {
+                    background-image: url("/assets/img/case-paste-by-wetransfer-background.jpg");
+                }
+
+                .case-header-wetransfer .case-header-info-meta h6:first-of-type {
+                    background: linear-gradient(106.64deg, #8335F6 17.92%, #F36464 88.49%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                .case-header-shortcuts-design {
+                    background-image: url("/assets/img/case-shortcuts-design-background.jpg");
+                }
+
+                .case-header-shortcuts-design .case-header-info-meta h6:first-of-type {
+                    color: #675BFE;
+                }
+
+                .case-header-info-meta {
+                    display: flex;
+                }
+
+                .case-header .divider-vertical {
+                    height: 18px;
+                    margin: 0px 12px;
+                }
+
+                .case-header a .button {
+                    margin: 0px 4px 0px 0px;
+                }
+
+                .case-header-image {
+                    width: 94%;
+                    max-width: 1450px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translate(-50%, 50%);
+                }
+
+                .case-content {
+                    padding-top: calc(((min(94%,1450px) * (800/1340)) / 2) + 64px);
+                }
+
+                .case-body h3 {
+                    margin-top: 56px;
+                }
+
+                .case-body h5 {
+                    margin: 8px 0px;
+                }
+
+                .case-body figure {
+                    margin: 64px 0px;
+                }
+
+                .case-body figure img {
+                    border-radius: 16px;
+                    border: 0.5px solid rgba(27, 32, 39, 0.12);
+                }
+
+                .case-body .meta-wrapper {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .case-body .meta-wrapper .profile, .case-body .meta-wrapper .meta-data-type {
+                    width: 50%;
+                    margin-bottom: 24px;
+                }
+
+                .case-body .meta-wrapper .profile p {
+                    max-width: 100% !important;
+                    margin-left: 0% !important;
+                }
+
+                .case-body .meta-wrapper ul {
+                    padding-left: 0;
+                }
+
+                .case-body .meta-wrapper li {
+                    list-style: none;
+                    line-height: 16px;
+                }
+
+                table {
+                    width: 100%;
+                }
+
+
+                @media only screen and (min-width: 767px) {
+                    .case-body .meta-wrapper .profile, .case-body .meta-wrapper .meta-data-type {
+                        width: 25%;
+                    }
+
+                    .case-body h3, .case-body h5, .case-body p, .case-body ul, .case-body ol, .case-body .meta-wrapper, .case-body .divider-horizontal, blockquote, table {
+                        max-width: 80%;
+                        margin-left: 10%;
+                    }
+
+                    .case-body li ol, .case-body li ul, .case-body blockquote p {
+                        max-width: 100%;
+                    }
+
+                    .case-body .meta-wrapper ul, .case-body .meta-wrapper .p-smaller, .case-body li ol, .case-body li ul, .case-body blockquote p {
+                        margin-left: 0%;
+                    }
+                }
+
+                @media only screen and (min-width: 1200px) {
+                    .case-body h3, .case-body h5, .case-body p, .case-body ul, .case-body ol, .case-body .meta-wrapper, .case-body .divider-horizontal, blockquote, table {
+                        max-width: 68%;
+                        margin-left: 16%;
+                    }
+
+                    .case-body li ol, .case-body li ul, .case-body blockquote p {
+                        max-width: 100%;
+                    }
+
+                    .case-body .meta-wrapper ul, .case-body .meta-wrapper .p-smaller, .case-body li ol, .case-body li ul, .case-body blockquote p {
+                        margin-left: 0%;
+                    }
+                }
