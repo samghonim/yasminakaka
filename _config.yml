@@ -1,0 +1,6 @@
+name: Flot
+description: Attractive JavaScript plotting for jQuery
+url: http://flotcharts.org
+
+permalink: /blog/:year/:month/:day/:title/
+paginate: 5
