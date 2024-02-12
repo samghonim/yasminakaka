@@ -1,0 +1,24 @@
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.socials a {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials a:first-of-type {
+    margin-left: 0px;
+}
+
+.socials a img {
+    width: 16px;
+    height: 16px;
+}
