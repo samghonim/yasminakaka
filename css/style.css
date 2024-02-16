@@ -952,7 +952,21 @@ section {
     color: #FF9900 !important;
 }
 
+.case-body .statsImg {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
+
+
+.case-body .processImg {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 
 
