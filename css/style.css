@@ -971,11 +971,11 @@ section {
 
 .videoDesign {
     pointer-events: none;
-    width: 100%; /* Makes the video width responsive to the parent container */
+    width: 100%;
     height: auto; 
 }
 
-
+ 
 
 
 
