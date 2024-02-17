@@ -975,11 +975,22 @@ section {
     height: auto; 
 }
 
- 
+ /*
+.newPaddingCase1 {
+    padding-bottom: 50px !important;
+}
 
 
+.newPaddingCase2 {
+    padding-top: 0px !important;
+}
+*/
 
-
+.newMarginsForSection {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
