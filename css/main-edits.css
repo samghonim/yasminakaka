@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xvJQZA {
+	height: 80vh;
+}
+
+
+._2y_DBA {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+
+.titlefix {
+	font-family: 'Gaegu';
+	font-size: 80px;
+    color: rgb(0, 0, 0);
+    line-height: 91px;
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+}
+
+
+.mainComponent {
+	display: block;
+}
+
+
+body {
+	/*background-color: white;*/
+}

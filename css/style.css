@@ -975,7 +975,7 @@ section {
     height: auto; 
 }
 
- /*
+ 
 .newPaddingCase1 {
     padding-bottom: 50px !important;
 }
@@ -984,7 +984,7 @@ section {
 .newPaddingCase2 {
     padding-top: 0px !important;
 }
-*/
+
 
 .newMarginsForSection {
     display: block;

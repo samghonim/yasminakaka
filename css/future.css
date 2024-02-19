@@ -1,0 +1,298 @@
+/*! CSS Used from: https://static.canva.com/web/491c32e0bc610192.ltr.css */
+ ._682gpw{
+    -webkit-touch-callout:none;
+    -webkit-user-drag:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+ .DF_utQ{
+    cursor:auto;
+    outline:none;
+    position:absolute;
+}
+ .DF_utQ:hover{
+    cursor:unset;
+}
+ ._0xkaeQ{
+    pointer-events:auto;
+}
+ .bFnJ2A{
+    left:0;
+    overflow:hidden;
+    top:0;
+}
+ ._7KaXww,.bFnJ2A{
+    position:absolute;
+}
+ ._7KaXww{
+    height:0;
+    width:0;
+}
+ .qhHTGg{
+    position:relative;
+}
+ ._4c2rDg{
+    height:100%;
+    width:100%;
+}
+ .GxUsfw{
+    transition:-webkit-transform .3s ease;
+    transition:transform .3s ease;
+    transition:transform .3s ease,-webkit-transform .3s ease;
+}
+ .a26Xuw{
+    height:100%;
+    width:100%;
+}
+ .a26Xuw ::selection{
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+ .fbzKiw{
+    bottom:0;
+    left:0;
+    position:absolute;
+    right:0;
+    top:0;
+}
+ .PcHy7w{
+    height:100%;
+    width:100%;
+}
+ .Izwocg{
+    position:relative;
+}
+ .uk_25A{
+    height:100%;
+    width:100%;
+}
+ .Ty61NA{
+    transition:-webkit-transform .3s ease;
+    transition:transform .3s ease;
+    transition:transform .3s ease,-webkit-transform .3s ease;
+}
+ ._7_i_XA{
+    display:block;
+    height:100%;
+    
+    position:absolute;
+    width:100%;
+}
+ ._0yZ6Qg{
+    text-rendering:geometricPrecision;
+}
+ .aF9o6Q{
+    height:100%;
+    pointer-events:auto;
+}
+ .pTC3Qw{
+    position:relative;
+}
+ .sx_H3w{
+    pointer-events:auto;
+}
+ .sx_H3w{
+    bottom:0;
+    left:0;
+    outline:none;
+    overflow:hidden;
+    position:absolute;
+    right:0;
+    top:0;
+}
+ .Zp7NQw{
+    height:100%;
+    width:100%;
+}
+ .Zp7NQw{
+    overflow:hidden;
+    position:relative;
+}
+ .AdBbhQ{
+    -webkit-font-feature-settings:"kern" 0,"calt" 0,"liga" 0,"clig" 0,"dlig" 0,"hlig" 0;
+    font-feature-settings:"kern" 0,"calt" 0,"liga" 0,"clig" 0,"dlig" 0,"hlig" 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+    text-size-adjust:none;
+    color:#000;
+    contain:style;
+    direction:ltr;
+    font-family:unset;
+    -webkit-font-kerning:none;
+    font-kerning:none;
+    font-size:16px;
+    font-style:normal;
+    font-synthesis:none;
+    -webkit-font-variant-ligatures:none;
+    font-variant-ligatures:none;
+    font-weight:400;
+    height:auto;
+    letter-spacing:0;
+    line-height:1.4;
+    overflow:visible;
+    overflow-wrap:break-word;
+    padding:0;
+    position:relative;
+    -moz-tab-size:4;
+    -o-tab-size:4;
+    tab-size:4;
+    text-align:left;
+    text-transform:none;
+    white-space:normal;
+    word-break:normal;
+}
+ .L7Ipcg{
+    white-space:pre-wrap;
+}
+ :root .cgHgbA .L7Ipcg:last-child{
+    white-space:pre;
+}
+ .cgHgbA{
+    margin:0;
+    position:relative;
+}
+ .hGbcYA .cgHgbA{
+    top:calc(var(--vertical-metrics-adjustment)*1em);
+}
+ .hGbcYA .cgHgbA{
+    margin-top:calc(var(--para-spacing)*1em);
+}
+ .hGbcYA .PanoWQ{
+    margin-top:0;
+}
+ .cgHgbA.Xp24Nw.nxe3IQ{
+    text-align:left;
+}
+ .cgHgbA.Xp24Nw.pYZEjA{
+    text-align:center;
+}
+ .cgHgbA.Xp24Nw.WvQL9w{
+    text-align:justify;
+}
+ .hGbcYA .cgHgbA.Xp24Nw{
+    margin-left:calc(var(--head-indent)*1em);
+}
+ .cgHgbA:not(._bsDhw){
+    counter-reset:list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8;
+}
+ .Pr6LEA{
+    height:100%;
+    left:0;
+    
+    position:absolute;
+    top:0;
+    width:100%;
+}
+ .hWv4NA{
+    position:relative;
+    -webkit-transform-origin:top left;
+    transform-origin:top left;
+}
+ .dYa4Xg{
+    position:relative;
+}
+ .dYa4Xg{
+    --deleted-page-height:0px;
+    z-index:0;
+}
+ .qWdtDQ{
+    align-items:center;
+}
+ .qWdtDQ,.uPeMFQ{
+    display:flex;
+    flex-direction:column;
+}
+ .uPeMFQ{
+    position:relative;
+}
+ .xvJQZA{
+    box-shadow:0 2px 8px rgba(14,19,24,.07);
+    overflow:hidden;
+}
+ .O7ADyQ{
+    background-color:#fff;
+    direction:ltr;
+    position:relative;
+    -webkit-transform-origin:0 0;
+    transform-origin:0 0;
+}
+ .awStMQ{
+    bottom:0;
+    left:0;
+}
+ .awStMQ{
+    
+    position:absolute;
+    z-index:2;
+}
+ .awStMQ{
+    direction:ltr;
+}
+ [tabindex]{
+    -webkit-tap-highlight-color:transparent;
+}
+/*! CSS Used from: https://static.canva.com/web/b14108976a97702e.ltr.css */
+ .o0HGhg{
+    outline:none;
+    transition:opacity .3s ease;
+}
+ .kLSz8Q,.o0HGhg{
+    height:100%;
+    width:100%;
+}
+ .kLSz8Q{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+}
+ .wH0DGA{
+    height:100%;
+    outline:none;
+    transition:opacity .3s ease;
+    width:100%;
+}
+ .wqPZwA{
+    border:2px solid #8b3dff;
+    box-sizing:border-box;
+}
+ .wqPZwA{
+    box-shadow:0 0 0 1px hsla(0,0%,100%,.07),inset 0 0 0 1px hsla(0,0%,100%,.07);
+}
+ .USePRA{
+    bottom:-1px;
+    left:-1px;
+    position:absolute;
+    right:-1px;
+    top:-1px;
+}
+ .OAPPpQ{
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+}
+ .OAPPpQ:before{
+    background-color:#8b3dff;
+    bottom:0;
+    content:"";
+    display:block;
+    left:0;
+    opacity:0;
+    position:absolute;
+    right:0;
+    top:0;
+}
+ .OAPPpQ.FB7MHA:before{
+    transition:opacity .2s ease-in;
+}
+
+ .E_6_9g{
+    position:relative;
+}
