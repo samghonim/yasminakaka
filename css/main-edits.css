@@ -23,7 +23,7 @@
 
 
 .titlefix {
-	font-family: 'Gaegu';
+	font-family: 'Gaegu Bold';
 	font-size: 80px;
     color: rgb(0, 0, 0);
     line-height: 91px;
@@ -35,12 +35,60 @@
     list-style-type: none;
 }
 
+.titlenorm {
+	font-family: 'Gaegu Bold';
+	font-size: 80px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+}
+
+
+.subtitlenorm {
+	font-family: 'Gaegu' !important;
+	font-size: 50px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+}
+
+
+.x1 {
+	font-family: 'Gaegu Bold' !important;
+}
+
+
+.x2 {
+	font-family: 'Gaegu' !important;
+}
+
+.x2 span {
+	font-family: 'Gaegu' !important;
+}
+
+.x1 span {
+	font-family: 'Gaegu Bold' !important;
+}
+
 
 .mainComponent {
 	display: block;
 }
 
+img {
+	height: auto;
+	width: auto;
+}
+
 
 body {
-	/*background-color: white;*/
+	background-color: white;
 }
