@@ -11,8 +11,6 @@
 
 
 function setScaleBasedOnScreenWidth() {
-	  // Get the target element by its class name
-	  var element = document.querySelector('.O7ADyQ');
 
 	  // Calculate the scale ratio
 	  var screenWidth = window.innerWidth;
@@ -20,7 +18,6 @@ function setScaleBasedOnScreenWidth() {
 	  var scaleRatio = screenWidth / originalWidth;
 
 	  scaleRatio -= 0.1;
-	  console.log("Here is the scale ratio " + scaleRatio);
 	  if (scaleRatio < 0.23) {
 	  	scaleRatio = 0.23;
 	  }
@@ -28,23 +25,22 @@ function setScaleBasedOnScreenWidth() {
 	  	scaleRatio = 0.75;
 	  }
 
-
-
-	  // Set the transform scale to the element
-
 	  var calcWidth = 1920 * scaleRatio;
 	  var margin = (screenWidth - calcWidth)/2;
 	  margin = margin - margin*0.1;
-	  console.log("Here is the margin ratio " + margin);
+
 	  var calcHeight = 1080 * scaleRatio;
-	  var marginBottom = (window.innerHeight - calcHeight)*2;
+	  var marginBottom = (1080 - calcHeight);
 	  var setBottom = Math.abs(marginBottom) * -1;
+	  console.log("Here is the scale ratio " + scaleRatio);
+	  console.log("Here is the margin ratio " + margin);
     $(".O7ADyQ").each( function(e) {
   		this.style.transform = 'scale(' + scaleRatio + ')';
 		if (margin > 0) {
 		  	this.style.left = margin + 'px';
 		}
-		this.style.marginBottom = setBottom + 'px';
+		//this.style.bottom = setBottom + 'px';
+		this.style.height = calcHeight + 'px';
     });
 }
 
