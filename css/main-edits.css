@@ -23,7 +23,8 @@
 
 
 .titlefix {
-	font-family: 'Gaegu Bold';
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 700 !important;
 	font-size: 80px;
     color: rgb(0, 0, 0);
     line-height: 91px;
@@ -36,7 +37,8 @@
 }
 
 .titlenorm {
-	font-family: 'Gaegu Bold';
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 700 !important;
 	font-size: 80px;
     color: rgb(0, 0, 0);
     letter-spacing: 0em;
@@ -49,7 +51,8 @@
 
 
 .subtitlenorm {
-	font-family: 'Gaegu' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 400 !important;
 	font-size: 50px;
     color: rgb(0, 0, 0);
     letter-spacing: 0em;
@@ -62,20 +65,24 @@
 
 
 .x1 {
-	font-family: 'Gaegu Bold' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 700 !important;
 }
 
 
 .x2 {
-	font-family: 'Gaegu' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 400 !important;
 }
 
 .x2 span {
-	font-family: 'Gaegu' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 400 !important;
 }
 
 .x1 span {
-	font-family: 'Gaegu Bold' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 700 !important;
 }
 
 ._7_i_XA {
@@ -90,19 +97,23 @@
 }
 
 .x2 span b {
-	font-family: 'Gaegu Bold' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 700 !important;
 }
 
 .projectInfo h3 {
-	font-family: 'Gaegu Bold' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 700 !important;
 	font-size: 45px !important;
 }
 .projectInfo h6 {
-	font-family: 'Gaegu Bold' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 700 !important;
 	font-size: 20px !important;
 }
 .projectInfo li {
-	font-family: 'Gaegu' !important;
+	font-family: "Gaegu", sans-serif !important;
+	font-weight: 400 !important;
 	font-size: 17px !important;
 	line-height: 22px !important;
 }
