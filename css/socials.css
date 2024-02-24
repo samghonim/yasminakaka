@@ -22,3 +22,15 @@
     width: 16px;
     height: 16px;
 }
+
+
+:root {
+    --brand-1-500: #5065EB !important;
+    --neutral-100: #111418 !important;
+    --neutral-100-a80: #5A5F66 !important;
+}
+
+
+.case-header-wetransfer .case-header-info-meta h6:first-of-type {
+    -webkit-text-fill-color: #000;
+}
