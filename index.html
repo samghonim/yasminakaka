@@ -563,6 +563,33 @@
                 .case-tag-inner span {
                     -webkit-text-fill-color: #000;
                 }
+                a {
+                    border-bottom-width:  0px !important;
+                }
+                a:hover {
+                    text-decoration-color:  #5065EB;
+                }
+                a:hover {
+                    text-decoration: none;
+                    border-bottom: none;
+                    content: none;
+                }
+
+                ::selection {
+                    background: #BAD6FB; /* Background color of the selection */
+                    color: #000000; /* Text color of the selection */
+                }
+
+                /* For browser compatibility */
+                ::-moz-selection {
+                    background: #BAD6FB; /* Background color of the selection */
+                    color: #000000; /* Text color of the selection */
+                }
+
+                pre {
+                    /*text-align: justify;*/
+                }
+
 
         </style>
     </head>
@@ -676,7 +703,7 @@
 
                 <div class="case-card-large-outer echtfit border-radius-32 elevation-100">
                     <div class="container">
-                        <div class="row">
+                        <div class="row" style="margin-bottom: 30px; padding-top: 30px;">
                             <div class="col-12 col-md-5">
                                 <div class="case-card-large">
                                     <img src="img/dmu-icon.png" class="case-card-large-icon margin-bottom-24 border-radius-16 elevation-100" alt="App icon" />
@@ -692,7 +719,7 @@
                                 <img src="img/Section2Pic1.png" class="case-card-large-image image-mobile" alt="Case image" />
                             </div>
                         </div>
-                        <div class="case-child-row row">
+                        <div class="case-child-row row" style="margin-bottom: 0px;">
                             <div class="col-12 col-md-6">
                                 <div class="case-card-child">
                                     <img src="img/Section2Pic4.png" class="border-radius-16 margin-bottom-16 elevation-100" alt="Case image" />
@@ -738,16 +765,15 @@
                                     <pre><h4>My design philosophy is anchored in the belief that true innovation is born from the confluence of creativity and a deep understanding of the user's needs. It's a dance of form and function where every step is intentional, every movement precise. With a commitment to breaking new ground, I approach each project as an opportunity to challenge conventions and redefine the experience through a lens of elegant simplicity.
                                     </h4></pre>
                                 </div>
+                                <a href="/case-study" class="a-larger case-study-button" style="line-height: 0px; margin-bottom: 0px;">Read Case Study<img src="img/arrow-right-blue.svg" class="button" alt="arrow" /></a>
                             </div>
                             <div class="col-12 col-md-7">
                                 <img src="img/section1Pic1.png" class="case-card-large-image image-desktop" alt="Case image" />
                                 <img src="img/section1Pic1.png" class="case-card-large-image image-mobile" alt="Case image" />
                             </div>
                         </div>
-                        <div class="case-child-row row noBottomMargin">
-                            <a href="/content/cases/follow-the-beat/performances/" class="case-card-small-link"> </a>
+                        <div class="case-child-row row noBottomMargin" style="margin-bottom: 0px;">
                             <div class="col-12 col-md-6">
-                                <a href="/content/cases/follow-the-beat/performances/" class="case-card-small-link"> </a>
                                 <div class="case-card-small case-card-child case-card-child-hover">
                                     <a href="/case-study" class="case-card-small-link">
                                         <img src="img/Section1Pic2.png" class="case-card-small-image border-radius-16 margin-bottom-16 elevation-100 corneredImg" alt="Case image" />
@@ -756,9 +782,7 @@
                                 </div>
                             </div>
 
-                            <a href="/content/cases/follow-the-beat/chat/" class="case-card-small-link"> </a>
                             <div class="col-12 col-md-6">
-                                <a href="/content/cases/follow-the-beat/chat/" class="case-card-small-link"> </a>
                                 <div class="case-card-small case-card-child case-card-child-hover">
                                     <a href="/case-study" class="case-card-small-link">
                                         <img src="img/Section1Pic3.png" class="case-card-small-image border-radius-16 margin-bottom-16 elevation-100" alt="Case image" />
@@ -793,19 +817,16 @@
 
                 <div class="case-card-large-outer government-accessibility border-radius-32 elevation-100">
                     <div class="container">
-                        <a href="/content/cases/government-accessibility/" class="case-card-large-link"> </a>
                         <div class="row">
-                            <a href="/content/cases/government-accessibility/" class="case-card-large-link"> </a>
                             <div class="col-12 col-md-5 case-card-large-hover">
-                                <a href="/content/cases/government-accessibility/" class="case-card-large-link"> </a>
                                 <div class="case-card-large">
-                                    <a href="/content/cases/government-accessibility/" class="case-card-large-link">
+                                    <a href="/brand-strategy" class="case-card-large-link">
                                         <img src="https://michelvanheest.com/assets/img/government-accessibility-icon.png" class="case-card-large-icon margin-bottom-24 border-radius-16 elevation-100" alt="App icon" style="visibility: hidden !important;" />
 
                                         <h3 class="margin-bottom-8">Strategic Design: Orchestrating Design with Purpose and Precision</h3>
                                         <pre><h4>My approach to design strategy is rooted in a profound understanding of both material and immaterial — the tangible interplay of form and the intangible interaction of human experience. It is a practice not just of crafting objects but of framing experiences, where each decision is both a question and an answer in a dialogue with function and meaning. This is design as a narrative, where simplicity speaks loudest and every choice is an integral thread in the story of creation.</h4></pre>
                                     </a>
-                                    <a href="/dmu#brand" class="a-larger" style="color: #5065EB !important;">Read casestudy<img src="img/arrow-right-blue.svg" class="button" alt="arrow" /></a>
+                                    <a href="/brand-strategy" class="a-larger" style="color: #5065EB !important;">Read casestudy<img src="img/arrow-right-blue.svg" class="button" alt="arrow" /></a>
                                 </div>
                             </div>
                             <div class="col-12 col-md-7">

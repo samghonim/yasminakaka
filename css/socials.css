@@ -34,3 +34,16 @@
 .case-header-wetransfer .case-header-info-meta h6:first-of-type {
     -webkit-text-fill-color: #000;
 }
+
+
+                
+::selection {
+    background: #BAD6FB; /* Background color of the selection */
+    color: #000000; /* Text color of the selection */
+}
+
+/* For browser compatibility */
+::-moz-selection {
+    background: #BAD6FB; /* Background color of the selection */
+    color: #000000; /* Text color of the selection */
+}
